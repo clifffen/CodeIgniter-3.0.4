@@ -23,6 +23,7 @@ public function index()
 $data['user_list'] = $this->users_model->get_all_users();
 
 $this->load->view('show_users', $data);
+/* extra line! */
 
 }
 
